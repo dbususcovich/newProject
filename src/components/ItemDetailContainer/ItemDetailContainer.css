@@ -1,0 +1,10 @@
+.ItemDetailContainer {
+    justify-content: center;
+    display: contents;
+    align-items: center;
+    flex-direction: column;
+    min-height: 80vh;
+    height: fit-content;
+    width: fit-content;
+
+}

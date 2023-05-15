@@ -1,0 +1,114 @@
+.Navbar {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gold;
+    position:inherit;
+    width: 100%;
+
+}
+
+img{
+    width: 160px;
+    height: 160px;
+
+}
+.botonbarra {
+  background-color: gold;
+  border: none;
+  color: rgb(0, 0, 0);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 26px;
+  margin: 4px 2px;
+  cursor: pointer;
+  opacity: 0.7;
+
+}
+
+
+
+.botonbarraactivo {
+    background-color: gold;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+    opacity: 1;
+
+}
+
+.Categories {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+  .NavLink {
+    color :black
+  }
+
+  
+
+  .widgetcontainer {
+display: grid;
+position: absolute;
+
+right: 20px;
+}
+  
+   
+.Option {
+  text-decoration: none;
+  border-radius: 25;
+  margin: 0 50px;
+  width: auto;
+  padding: 15px;
+  font-size: 15px;
+  background:gold;
+  border-radius: 8px;
+  flex: none;
+  display: flex;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  border: none;
+  border-style: none;
+  cursor: pointer;
+  outline: inherit;
+}
+
+.ActiveOption {
+  text-decoration: none;
+  border-radius: 25;
+  margin: 0 50px;
+  width: auto;
+  padding: 15px;
+  font-size: 17px;
+  background: gold;
+  border-radius: 8px;
+  flex: none;
+  display: flex;
+  order: 1;
+  align-self: center;
+  flex-grow: 0;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #000000;
+  border: none;
+  border-style: none;
+  cursor: pointer;
+  outline: inherit;
+}
